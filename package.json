@@ -1,0 +1,23 @@
+{
+  "name": "cardapio-digital-roviro",
+  "version": "1.0.0",
+  "description": "Cardápio Digital & Pedidos Diretos sem Taxa de iFood com PIX e Notificações WhatsApp",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && bun run dev",
+    "dev:client": "cd client && bun run dev",
+    "build:client": "cd client && bun run build",
+    "build:server": "cd server && bun run build",
+    "build": "bun run build:client && bun run build:server",
+    "start": "cd server && bun run start"
+  },
+  "keywords": [
+    "cardapio-digital",
+    "delivery",
+    "pix",
+    "whatsapp",
+    "roviro",
+    "saas"
+  ],
+  "author": "Roviro"
+}
